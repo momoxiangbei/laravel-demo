@@ -2,7 +2,7 @@
 
 需要的四个插件
 + "way/generators": "~2.0"     [代码生成工具](http://blog.csdn.net/huyanping/article/details/39828223)
-+ "cartalyst/sentry": "2.1.4"    [登录等权限验证](https://github.com/cartalyst/sentry)
++ [cartalyst/sentry](https://cartalyst.com/manual/sentry)
 + "edvinaskrucas/notification": "3.0.0"   [edvinaskrucas/notification](https://github.com/edvinaskrucas/notification)
 + "fzaninotto/faker": "~1.4"  [测试数据库](https://github.com/fzaninotto/Faker)
 
