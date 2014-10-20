@@ -7,7 +7,7 @@
 ####数据库的建立及迁移
 1. 配置数据库的连接 app/config/database.php
 2. 创建数据库  
-    < php artisan migrate --package=cartalyst/sentry
+>  php artisan migrate --package=cartalyst/sentry
 3. 建立表
 
 ####models
