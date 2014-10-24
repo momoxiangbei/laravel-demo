@@ -1,10 +1,10 @@
 [laravel-demo具体教程](http://lvwenhan.com/laravel/398.html)             
 
 需要的四个插件
-+ "way/generators": "~2.0"     [代码生成工具](http://blog.csdn.net/huyanping/article/details/39828223)
++ [way/generators](http://blog.csdn.net/huyanping/article/details/39828223)
 + [cartalyst/sentry](https://cartalyst.com/manual/sentry)
-+ "edvinaskrucas/notification": "3.0.0"   [edvinaskrucas/notification](https://github.com/edvinaskrucas/notification)
-+ "fzaninotto/faker": "~1.4"  [测试数据库](https://github.com/fzaninotto/Faker)
++ [edvinaskrucas/notification](https://github.com/edvinaskrucas/notification)
++ [fzaninotto/faker](https://github.com/fzaninotto/Faker)
 
 ####插件安装及配置
 1. 打开composer.json   "require": {"插件": "版本"}
@@ -12,15 +12,14 @@
 3. 在app.config 中添加配置
 
 ####数据库的建立及迁移
-1. 配置数据库的连接 app/config/database.php
-2. 创建数据表迁移文件
+1. 创建数据表迁移文件
     + php artisan migrate --package=cartalyst/sentry    
       sentry会在数据库中自动创建5张表
     + php artisan migrate:make create_articles_table --create=articles        
       在.app/database/migrations 下创建了数据库迁移文件        
-3. 修改迁移文件
+2. 修改迁移文件
     + 用schema创建具体的表
-4. 创建表
+3. 创建表
     + php artisan migrate        
       数据库中的表就建好了
 
