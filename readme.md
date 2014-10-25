@@ -1,6 +1,14 @@
 [laravel-demo具体教程](http://lvwenhan.com/laravel/398.html)             
 
-需要的四个插件
+####使用demo方法
+1. 配置数据连接
+2. 增加写权限
+3. 运行 php artisan migrate
+4. 运行 php artisan migrate --package=cartalyst/sentry
+5. 运行 php artisan db:seed
+6. 登陆账号oo@xx.com 密码ooxx
+
+####需要的四个插件
 + [way/generators](http://blog.csdn.net/huyanping/article/details/39828223)
 + [cartalyst/sentry](https://cartalyst.com/manual/sentry)
 + [edvinaskrucas/notification](https://github.com/edvinaskrucas/notification)
